@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /*
-попытка - это не пытка, кто бы что ни говорил :)
+привет!
 */
 public class Main {
 
