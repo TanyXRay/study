@@ -28,5 +28,6 @@ public class LessonInheritance {
         lawyer1.showPlaceOfWork();
         lawyer1.work();
         lawyer1.eat();
+        System.out.println(lawyer1 instanceof Employee); //Оператор instanceof Java-можно применить для проверки наследования, может вернуть логическое значение (true или false)
     }
 }
