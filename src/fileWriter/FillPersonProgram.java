@@ -9,6 +9,7 @@ public class FillPersonProgram {
         personScanner.fillSecondName();
         personScanner.fillFirstName();
         personScanner.fillFirstPatronymic();
+        personScanner.fillAge();
         personScanner.closeScan();
 
         FileWriter fileWriter = new FileWriter();

@@ -1,9 +1,11 @@
 package fileWriter;
 
 
+import java.util.InputMismatchException;
+
 public class TextValidator {
 
-    private static boolean checkHasOnlyLetter(String name) { //только для проверки фио
+    private static boolean checkHasOnlyLetter(String name) { //только для проверки фио all class
         for (char c : name.toCharArray()) {
             if (!Character.isLetter(c)) {
                 return false;

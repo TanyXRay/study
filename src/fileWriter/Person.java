@@ -5,7 +5,7 @@ public class Person {
     private String surname;
     private String name;
     private String patronymic;
-    private int age;
+    private String age;
 
     public String getSurname() {
         return surname;
@@ -31,11 +31,11 @@ public class Person {
         this.patronymic = patronymic;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 

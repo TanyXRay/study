@@ -19,10 +19,12 @@ public class FileWriter {
         sb.append("Фамилия: ").append(person.getSurname()).append("\n");
         sb.append("Имя: ").append(person.getName()).append("\n");
         sb.append("Отчество: ").append(person.getPatronymic()).append("\n");
+        sb.append("Возраст: ").append(person.getAge()).append("\n");
 
         try {
             Path path = Files.writeString(Path.of(fileName), sb.toString(), CREATE_NEW);
         } catch (IOException e) {
+            System.out.println("Ошибка");
             e.printStackTrace();
         }
     }
