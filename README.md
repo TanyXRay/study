@@ -36,18 +36,11 @@
 ****
 *That's all, thanks for your attention!*
 ****
-## Writing files. FileWriter class
-##### The FileWriter class is derived from the Writer class. It is used to write text files. To create a FileWriter object, you can use one of the following constructors:
-1. FileWriter(File file);
-2. FileWriter(File file, boolean append);
-3. FileWriter(FileDescriptor fd);
-4. FileWriter(String fileName);
-5. FileWriter(String fileName, boolean append).
-##### Thus, either the path to the file is passed to the constructor as a string, or a File object that refers to a specific text file. The append parameter specifies whether the data should be appended to the end of the file (if the parameter is true) or the file should be overwritten.
-##### In my example, the constructor used the append parameter with a value of false - that is, the file will be overwritten. The data is then written using the methods defined in the Writer base class.
-##### In order to work with a file, first you need to create it and determine its name and path, and only then use the writer to write some text to the created file, in my case, text is entered from the keyboard and the writing is directly carried out in the file, where the name of the document is the name of the person. A small validation of the input data has been added to the code if the data is entered incorrectly.
-> There is another such point - Java has a feature called "checked exceptions". This means that there are certain kinds of exceptions, namely those that are a subclass of Exception but not RuntimeException, that is, these are exceptions that a method can throw, and we must list these exceptions in the throws declaration, say: FileWriter() throws IOException . IOException is one of them.
-> Thus, when we call a method that enumerates IOException in its throws declaration, we must either enumerate it in its own throws (throws declaration) or catch it with try - catch -finally.
+## Writing files.
+##### In Java, the File class represents files and directory paths in an abstract manner. This class is used to create, search, delete files and directories, etc.
+##### The constructor is passed either a path to a file as a string, or a File object referring to a specific text file. We use StringBuilder to work with strings with less overhead and also use the append parameter to add additional text to the written file.
+##### In order to work with a file, you first need to create it and determine its name and path, and only then, using the call in the main writePersonToFile(person) method, write some text to the created file, in my case, the text is entered from the keyboard (PersonScanner class) and written directly to a file, where the document name is the person's name (FileWriter class). In addition to the first name, the surname, reporting and age are also entered into the file. A small input validation (TextValidation class) has been added to the code if the input is incorrect.
+> There is another point, in addition to data validation, custom exceptions are implemented in the code, for example, when creating a file that will match the name of an already created file, an exception inherited from RuntimeException (FileAlreadyCreatedException class) will be thrown, which helps to stop the program execution at the stage creating an existing file.
 ****
 *That's all, thanks for your attention!*
 ****
