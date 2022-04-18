@@ -14,5 +14,6 @@ public class FillPersonProgram {
 
         FileWriter fileWriter = new FileWriter();
         fileWriter.writePersonToFile(person);
+        System.out.println("Файл сохранен успешно!");
     }
 }

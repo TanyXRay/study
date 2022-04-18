@@ -10,11 +10,9 @@ public class FileWriter {
 
     public void writePersonToFile(Person person) {
         String fileName = person.getSurname() + " " + person.getName() + ".txt";
-        boolean isExists = Files.exists(Path.of(fileName));
-        if (isExists) {
-            return;
+        if (Files.exists(Path.of(fileName))){
+            throw new FileAlreadyCreatedException("Файл уже существует с таким наименованием");
         }
-
         StringBuilder sb = new StringBuilder();
         sb.append("Фамилия: ").append(person.getSurname()).append("\n");
         sb.append("Имя: ").append(person.getName()).append("\n");
