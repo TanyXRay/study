@@ -44,3 +44,11 @@
 ****
 *That's all, thanks for your attention!*
 ****
+## input-Output Java
+##### I/O is used to access or process input and produce output based on the input. Java uses the concept of streams, which speed up I/O operations.
+##### There are symbolic abstract classes (working with text data) - these are Writer and Reader; and byte abstract classes (working mainly with audio, video, images) -InputStream and OutputStream.
+##### In this example, the file "test_data.txt" is given, there are 100 records (lines) inside - full name, gender, age, phone number.
+##### It is necessary to read the file, find all people of retirement age, then write them to the output file "result _data .txt": each line should look like - "Name" "Phone number".
+##### First of all, objects were created for reading a file and writing to another file using FileReader and Writer (do not forget about try-catch blocks, where in the try parameters we will immediately close the streams using try-with-resource ). Using the BufferedReader class, we read text from the character input stream, buffering the characters read. Using the Split method, we split the lines in the file into an array of lines. Next, you need to select a record in our "result _data .txt" file. To do this, we immediately use the Integer.parseInt wrapper class method to validate the age (since strings are accepted for reading, but we need a number), and the equals method is used to select the gender.
+****
+*That's all, thanks for your attention!*
