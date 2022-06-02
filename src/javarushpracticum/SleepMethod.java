@@ -2,7 +2,7 @@ package javarushpracticum;
 
 public class SleepMethod {
     public static void main(String[] args) {
-        for (int i = 3; i  > 0; i--){
+        for (int i = 3; i > 0; i--) {
             System.out.println(i);
             try {
                 Thread.sleep(1000); //данный класс позволяет остановить выполнение программы на определенное время
