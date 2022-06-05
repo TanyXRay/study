@@ -1,3 +1,12 @@
+## Оглавление
+
+1. [Test code for Git](#Test code for Git)
+2. [Java Quick Sort method](#Java Quick Sort method)
+3. [Inheritance in Java](#Inheritance in Java)
+4. [Writing files](#Writing files)
+5. [Input-Output Java](#Input-Output Java)
+6. [Practical examples from Java Rush website](#Practical examples from Java Rush website)
+
 ## 1.Test code for Git
 > easy for use 
 
@@ -21,7 +30,7 @@
 ****
 *Thank you for the attention!* 
 *****
-## Inheritance in Java
+## 3.Inheritance in Java
 ##### Inheritance is a mechanism in programming, including Java, that allows you to describe a new class based on an existing one. The derived class thus gains access to the fields and methods of the parent class.
 ##### for example, I created 3 classes: 
 1. сlass LessonInheritance with the main method;
@@ -36,7 +45,7 @@
 ****
 *That's all, thanks for your attention!*
 ****
-## Writing files.
+## 4.Writing files
 ##### In Java, the File class represents files and directory paths in an abstract manner. This class is used to create, search, delete files and directories, etc.
 ##### The constructor is passed either a path to a file as a string, or a File object referring to a specific text file. We use StringBuilder to work with strings with less overhead and also use the append parameter to add additional text to the written file.
 ##### In order to work with a file, you first need to create it and determine its name and path, and only then, using the call in the main writePersonToFile(person) method, write some text to the created file, in my case, the text is entered from the keyboard (PersonScanner class) and written directly to a file, where the document name is the person's name (FileWriter class). In addition to the first name, the surname, reporting and age are also entered into the file. A small input validation (TextValidation class) has been added to the code if the input is incorrect.
@@ -44,7 +53,7 @@
 ****
 *That's all, thanks for your attention!*
 ****
-## input-Output Java
+## 5.Input-Output Java
 ##### I/O is used to access or process input and produce output based on the input. Java uses the concept of streams, which speed up I/O operations.
 ##### There are symbolic abstract classes (working with text data) - these are Writer and Reader; and byte abstract classes (working mainly with audio, video, images) -InputStream and OutputStream.
 ##### In this example, the file "test_data.txt" is given, there are 100 records (lines) inside - full name, gender, age, phone number.
@@ -52,3 +61,21 @@
 ##### First of all, objects were created for reading a file and writing to another file using FileReader and Writer (do not forget about try-catch blocks, where in the try parameters we will immediately close the streams using try-with-resource ). Using the BufferedReader class, we read text from the character input stream, buffering the characters read. Using the Split method, we split the lines in the file into an array of lines. Next, you need to select a record in our "result _data .txt" file. To do this, we immediately use the Integer.parseInt wrapper class method to validate the age (since strings are accepted for reading, but we need a number), and the equals method is used to select the gender.
 ****
 *That's all, thanks for your attention!*
+****
+## 6.Practical examples from Java Rush website
+> short and simple
+##### Here will be considered various examples on the use of various tools that are used in Java.
+#### for example:
+- how to work with variables;
+- how to use arrays;
+- how to work with operators;
+- use of loops, nested loops;
+- work with debugging;
+- etc...
+****
+##### examples will be added to this package as various tasks are completed from this site, there will also be comments in the examples for understanding.
+****
+*Thank you for the attention!*
+____
+[:arrow_up:Оглавление](#Оглавление)
+___
