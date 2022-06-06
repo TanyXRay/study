@@ -1,11 +1,15 @@
 ## Оглавление
+[1.Test code for Git](#1.Test code for Git)
 
-1. [Test code for Git](#1.Test code for Git)
-2. [Java Quick Sort method](#2.Java Quick Sort method)
-3. [Inheritance in Java](#3.Inheritance in Java)
-4. [Writing files](#4.Writing files)
-5. [Input-Output Java](#5.Input-Output Java)
-6. [Practical examples from Java Rush website](#6.Practical examples from Java Rush website)
+[2.Java Quick Sort method](#2.Java Quick Sort method)
+
+[3.Inheritance in Java](#3.Inheritance in Java)
+
+[4.Writing files](#4.Writing files)
+
+[5.Input-Output Java](#5.Input-Output Java)
+
+[6.Practical examples from Java Rush website](#6.Practical examples from Java Rush website)
 
 ## 1.Test code for Git
 > easy for use 
@@ -79,3 +83,5 @@
 ____
 [:arrow_up:Оглавление](#Оглавление)
 ___
+
+[reference]: #1.Test code for Git
