@@ -1,4 +1,4 @@
-package study.homework.writing;
+package study.homework.writing.filewriter2;
 
 import java.io.*;
 
