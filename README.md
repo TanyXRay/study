@@ -1,17 +1,17 @@
 ## Оглавление
-[1.Test code for Git](#1.Test code for Git)
+1. [Test code for Git](#Test code for Git)
 
-[2.Java Quick Sort method](#2.Java Quick Sort method)
+2. [Java Quick Sort method](#Java Quick Sort method)
 
-[3.Inheritance in Java](#3.Inheritance in Java)
+3. [Inheritance in Java](#Inheritance in Java)
 
-[4.Writing files](#4.Writing files)
+4. [Writing files](#Writing files)
 
-[5.Input-Output Java](#5.Input-Output Java)
+5. [Input-Output Java](#Input-Output Java)
 
-[6.Practical examples from Java Rush website](#6.Practical examples from Java Rush website)
+6. [Practical examples from Java Rush website](#Practical examples from Java Rush website)
 
-## 1.Test code for Git
+## Test code for Git
 > easy for use 
 
 ##### In this code, you can see the use of the scanner class as well as the calculation of a simple formula 
@@ -20,7 +20,7 @@
 - if
 - else
 ****
-## 2.Java Quick Sort method
+## Java Quick Sort method
 ##### Quicksort is one of the fastest sorting algorithms in existence and has algorithmic complexity. In this method, the task is divided into subtasks until there is an elementary unit. The same with the algorithm: the array is divided into several arrays, each of which is sorted separately and then combined into one array.
 *Step-by-step description of how the quick sort algorithm works:*
 
@@ -34,7 +34,7 @@
 ****
 *Thank you for the attention!* 
 *****
-## 3.Inheritance in Java
+## Inheritance in Java
 ##### Inheritance is a mechanism in programming, including Java, that allows you to describe a new class based on an existing one. The derived class thus gains access to the fields and methods of the parent class.
 ##### for example, I created 3 classes: 
 1. сlass LessonInheritance with the main method;
@@ -49,7 +49,7 @@
 ****
 *That's all, thanks for your attention!*
 ****
-## 4.Writing files
+## Writing files
 ##### In Java, the File class represents files and directory paths in an abstract manner. This class is used to create, search, delete files and directories, etc.
 ##### The constructor is passed either a path to a file as a string, or a File object referring to a specific text file. We use StringBuilder to work with strings with less overhead and also use the append parameter to add additional text to the written file.
 ##### In order to work with a file, you first need to create it and determine its name and path, and only then, using the call in the main writePersonToFile(person) method, write some text to the created file, in my case, the text is entered from the keyboard (PersonScanner class) and written directly to a file, where the document name is the person's name (FileWriter class). In addition to the first name, the surname, reporting and age are also entered into the file. A small input validation (TextValidation class) has been added to the code if the input is incorrect.
@@ -57,7 +57,7 @@
 ****
 *That's all, thanks for your attention!*
 ****
-## 5.Input-Output Java
+## Input-Output Java
 ##### I/O is used to access or process input and produce output based on the input. Java uses the concept of streams, which speed up I/O operations.
 ##### There are symbolic abstract classes (working with text data) - these are Writer and Reader; and byte abstract classes (working mainly with audio, video, images) -InputStream and OutputStream.
 ##### In this example, the file "test_data.txt" is given, there are 100 records (lines) inside - full name, gender, age, phone number.
@@ -66,7 +66,7 @@
 ****
 *That's all, thanks for your attention!*
 ****
-## 6.Practical examples from Java Rush website
+## Practical examples from Java Rush website
 > short and simple
 ##### Here will be considered various examples on the use of various tools that are used in Java.
 #### for example:
@@ -83,5 +83,3 @@
 ____
 [:arrow_up:Оглавление](#Оглавление)
 ___
-
-[reference]: #1.Test code for Git
