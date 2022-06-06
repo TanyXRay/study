@@ -3,7 +3,7 @@ package study.homework.inheritance;
 import java.util.Scanner;
 
 /**
- * Пример работы с одним из основополагающих ООП - Наследование
+ * Пример работы с одним из основополагающих ООП - Наследование.
  */
 
 public class LessonInheritance {
