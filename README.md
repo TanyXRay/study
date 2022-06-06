@@ -1,17 +1,13 @@
 ## Оглавление
 1. [Test code for Git](https://github.com/TanyXRay/study/blob/main/README.md#test-code-for-git)
-
-2. [Java Quick Sort method](#Java Quick Sort method)
-
-3. [Inheritance in Java](#Inheritance in Java)
-
-4. [Writing files](#Writing files)
-
-6. [Practical examples from Java Rush website](#Practical examples from Java Rush website)
+2. [Java Quick Sort method](https://github.com/TanyXRay/study/blob/main/README.md#java-quick-sort-method)
+3. [Inheritance in Java](https://github.com/TanyXRay/study/blob/main/README.md#inheritance-in-java)
+4. [Writing files](https://github.com/TanyXRay/study/blob/main/README.md#writing-files)
+5. [Input-Output Java](https://github.com/TanyXRay/study/blob/main/README.md#input-output-java)
+6. [Practical examples from Java Rush website](https://github.com/TanyXRay/study/blob/main/README.md#practical-examples-from-java-rush-website)
 
 ### Test code for Git
-> easy for use 
-
+> easy for use
 #### In this code, you can see the use of the scanner class as well as the calculation of a simple formula 
 - x = (a - b) * (c - d)
 #### and the application of conditional operators:
@@ -21,7 +17,6 @@
 ## Java Quick Sort method
 ##### Quicksort is one of the fastest sorting algorithms in existence and has algorithmic complexity. In this method, the task is divided into subtasks until there is an elementary unit. The same with the algorithm: the array is divided into several arrays, each of which is sorted separately and then combined into one array.
 *Step-by-step description of how the quick sort algorithm works:*
-
 - select a pivot from the array, the supporting element is the middle element,
 - we divide the array into two subarrays: elements, less than the pivot one and elements, more than the pivot one,
 - Recursively apply the sort to the two subarrays.
@@ -81,5 +76,3 @@
 ____
 [:arrow_up:Оглавление](#Оглавление)
 ___
-
-[reference]: #Test code for Git
