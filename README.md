@@ -5,7 +5,7 @@
 4. [Writing files](https://github.com/TanyXRay/study/blob/main/README.md#writing-files)
 5. [Input-Output Java](https://github.com/TanyXRay/study/blob/main/README.md#input-output-java)
 6. [Practical examples from Java Rush website](https://github.com/TanyXRay/study/blob/main/README.md#practical-examples-from-java-rush-website)
-### Test code for Git
+## Test code for Git
 > easy for use
 #### In this code, you can see the use of the scanner class as well as the calculation of a simple formula 
 - x = (a - b) * (c - d)
@@ -61,7 +61,7 @@
 ## Practical examples from Java Rush website
 > short and simple
 ##### Here will be considered various examples on the use of various tools that are used in Java.
-#### for example:
+##### for example:
 - how to work with variables;
 - how to use arrays;
 - how to work with operators;
