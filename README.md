@@ -12,6 +12,7 @@
 #### and the application of conditional operators:
 - if
 - else
+> > package link: [formula](https://github.com/TanyXRay/study/tree/main/src/study/homework/formula)
 ****
 ## Java Quick Sort method
 ##### Quicksort is one of the fastest sorting algorithms in existence and has algorithmic complexity. In this method, the task is divided into subtasks until there is an elementary unit. The same with the algorithm: the array is divided into several arrays, each of which is sorted separately and then combined into one array.
@@ -23,6 +24,7 @@
 ##### In the first case, we write the algorithm for calculating the pivot element, dividing into subarrays, call recursion to sort 2 parts.
 ##### In the second case, we specify the value of the array itself and print the already sorted values to the console.
 > there are also other options for writing code, where specific values in the array are indicated, and not random numbers, with the use of additional conditions if-else
+> > package link: [quicksort](https://github.com/TanyXRay/study/tree/main/src/study/homework/sort/quicksort)
 ****
 *Thank you for the attention!* 
 *****
@@ -38,6 +40,7 @@
 ##### To check whether an object was created on the basis of some class, Java has a special operator - instanceof. It returns true if the test was true, or false if the result was false.
 ##### In my code, such a check is made in the main method of the LessonInheritance class. The check with the instanceof operator returned true because we have an object of the Lawyer class that inherits from the Employee class.
 ##### Pay attention to the instanceof operator: it is written without a dot, since it is an operator, not a method (“instanceof class object”).
+> > package link: [inheritance](https://github.com/TanyXRay/study/tree/main/src/study/homework/inheritance)
 ****
 *That's all, thanks for your attention!*
 ****
@@ -46,6 +49,7 @@
 ##### The constructor is passed either a path to a file as a string, or a File object referring to a specific text file. We use StringBuilder to work with strings with less overhead and also use the append parameter to add additional text to the written file.
 ##### In order to work with a file, you first need to create it and determine its name and path, and only then, using the call in the main writePersonToFile(person) method, write some text to the created file, in my case, the text is entered from the keyboard (PersonScanner class) and written directly to a file, where the document name is the person's name (FileWriter class). In addition to the first name, the surname, reporting and age are also entered into the file. A small input validation (TextValidation class) has been added to the code if the input is incorrect.
 > There is another point, in addition to data validation, custom exceptions are implemented in the code, for example, when creating a file that will match the name of an already created file, an exception inherited from RuntimeException (FileAlreadyCreatedException class) will be thrown, which helps to stop the program execution at the stage creating an existing file.
+> > package link: [filewriter](https://github.com/TanyXRay/study/tree/main/src/study/homework/writing/filewriter)
 ****
 *That's all, thanks for your attention!*
 ****
@@ -55,6 +59,7 @@
 ##### In this example, the file "test_data.txt" is given, there are 100 records (lines) inside - full name, gender, age, phone number.
 ##### It is necessary to read the file, find all people of retirement age, then write them to the output file "result _data .txt": each line should look like - "Name" "Phone number".
 ##### First of all, objects were created for reading a file and writing to another file using FileReader and Writer (do not forget about try-catch blocks, where in the try parameters we will immediately close the streams using try-with-resource ). Using the BufferedReader class, we read text from the character input stream, buffering the characters read. Using the Split method, we split the lines in the file into an array of lines. Next, you need to select a record in our "result _data .txt" file. To do this, we immediately use the Integer.parseInt wrapper class method to validate the age (since strings are accepted for reading, but we need a number), and the equals method is used to select the gender.
+> > package link: [filewriter2](https://github.com/TanyXRay/study/tree/main/src/study/homework/writing/filewriter2)
 ****
 *That's all, thanks for your attention!*
 ****
@@ -68,8 +73,8 @@
 - use of loops, nested loops;
 - work with debugging;
 - etc...
-****
 ##### examples will be added to this package as various tasks are completed from this site, there will also be comments in the examples for understanding.
+> > package link: [practicum](https://github.com/TanyXRay/study/tree/main/src/study/javarush/practicum)
 ****
 *Thank you for the attention!*
 ____
