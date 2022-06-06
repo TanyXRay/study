@@ -1,5 +1,5 @@
 ## Оглавление
-1. [Test code for Git](#Test code for Git)
+1. [Test code for Git](https://github.com/TanyXRay/study/blob/main/README.md#test-code-for-git)
 
 2. [Java Quick Sort method](#Java Quick Sort method)
 
@@ -7,14 +7,12 @@
 
 4. [Writing files](#Writing files)
 
-5. [Input-Output Java](#Input-Output Java)
-
 6. [Practical examples from Java Rush website](#Practical examples from Java Rush website)
 
-## Test code for Git
+### Test code for Git
 > easy for use 
 
-##### In this code, you can see the use of the scanner class as well as the calculation of a simple formula 
+#### In this code, you can see the use of the scanner class as well as the calculation of a simple formula 
 - x = (a - b) * (c - d)
 #### and the application of conditional operators:
 - if
@@ -83,3 +81,5 @@
 ____
 [:arrow_up:Оглавление](#Оглавление)
 ___
+
+[reference]: #Test code for Git
