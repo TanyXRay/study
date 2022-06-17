@@ -1,4 +1,4 @@
-package study.javarush.practicum.tasks.object;
+package study.javarush.practicum.object.object1;
 
 /**
  * Выполнение задачи 1 и 2 по теме "Структура класса".

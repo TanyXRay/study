@@ -1,4 +1,4 @@
-package study.javarush.practicum.objects2;
+package study.javarush.practicum.object.object4;
 
 /**
  * Создаем объекты и  их конструкторы.

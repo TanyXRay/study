@@ -1,4 +1,4 @@
-package study.javarush.practicum.tasks.object;
+package study.javarush.practicum.object.object1;
 
 import java.time.LocalDate;
 

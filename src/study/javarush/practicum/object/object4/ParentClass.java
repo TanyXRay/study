@@ -1,4 +1,4 @@
-package study.javarush.practicum.objects2;
+package study.javarush.practicum.object.object4;
 
 public class ParentClass {
     public String a = Main.printText("Hello parentClass field a");

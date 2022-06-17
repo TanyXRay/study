@@ -1,4 +1,4 @@
-package study.javarush.practicum.objects2;
+package study.javarush.practicum.object.object4;
 
 public class ChildClass extends ParentClass {
     public String c = Main.printText("Hello childClass field c");
