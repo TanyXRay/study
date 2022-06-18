@@ -1,4 +1,4 @@
-package study.javarush.practicum.object.objects;
+package study.javarush.practicum.object.examples;
 
 /**
  * Работа с объектами.
