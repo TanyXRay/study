@@ -1,4 +1,4 @@
-package study.javarush.practicum.statics;
+package study.javarush.practicum.statics.static1;
 
 /**
  * Работа со статическими переменными.
