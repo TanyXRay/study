@@ -1,8 +1,8 @@
 package study.javarush.practicum.inheritance;
 
 public class Account {
-    private String nameOwner;
-    private long balance;
+    protected String nameOwner;
+    protected long balance;
 
     public Account(String nameOwner, long balance) {
         this.nameOwner = nameOwner;

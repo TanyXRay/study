@@ -2,12 +2,9 @@ package study.javarush.practicum.inheritance;
 
 public class CheckingAccount extends Account {
     private final int minBalance;
-    private long balance;
-    private String nameOwner;
 
     public CheckingAccount(String nameOwner, long balance, int minBalance) {
         super(nameOwner, balance);
-        this.balance = balance;
         this.minBalance = minBalance;
     }
 

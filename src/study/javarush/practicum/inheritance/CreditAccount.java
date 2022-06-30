@@ -1,12 +1,9 @@
 package study.javarush.practicum.inheritance;
 
 public class CreditAccount extends Account {
-    private long balance;
-    private String nameOwner;
 
     public CreditAccount(String nameOwner, long balance) {
         super(nameOwner, balance);
-        this.balance = balance;
     }
 
     public long getBalance() {
@@ -33,10 +30,7 @@ public class CreditAccount extends Account {
 
     @Override
     public boolean add(long amount) {
-        if (balance < 0) {
-            return false;
-        } else {
-            return true;
-        }
+        balance += amount;
+        return true;
     }
 }
