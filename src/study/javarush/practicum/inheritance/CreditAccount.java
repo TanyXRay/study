@@ -30,7 +30,11 @@ public class CreditAccount extends Account {
 
     @Override
     public boolean add(long amount) {
-        balance += amount;
-        return true;
+        if (balance + amount > 0 ) {
+            return false;
+        } else {
+            balance += amount;
+            return true;
+        }
     }
 }
