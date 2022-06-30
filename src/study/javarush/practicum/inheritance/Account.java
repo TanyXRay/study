@@ -1,7 +1,6 @@
 package study.javarush.practicum.inheritance;
 
 public class Account {
-
     private String nameOwner;
     private long balance;
 
