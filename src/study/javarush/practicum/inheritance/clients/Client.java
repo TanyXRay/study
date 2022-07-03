@@ -1,17 +1,17 @@
 package study.javarush.practicum.inheritance.clients;
 
-import study.javarush.practicum.inheritance.accounts.Account;
+import study.javarush.practicum.inheritance.accounts.*;
 
 public class Client {
     private String name;
     private int maxAccount;
 
-    Account[] accounts;
+    private Account[] accounts;
 
     public Client(String name, int maxAccount) {
         this.name = name;
         this.maxAccount = maxAccount;
-        accounts = new Account[maxAccount];
+        this.accounts = new Account[maxAccount];
     }
 
     public void addNewAccount(Account account) {
@@ -26,10 +26,12 @@ public class Client {
 
     public boolean pay(int amount) {
         for (Account account : accounts) {
-            if (account.pay(amount)) {
-                return true;
+            if (account != null) {
+                if (account.pay(amount))
+                    return true;
             }
         }
+        System.out.println("Ни один счет не может покрыть расходы на покупку!");
         return false;
     }
 }

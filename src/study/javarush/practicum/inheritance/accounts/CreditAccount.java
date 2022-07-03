@@ -24,8 +24,13 @@ public class CreditAccount extends Account {
 
     @Override
     public boolean pay(long amount) {
-        balance -= amount;
-        return true;
+        if (balance - amount > -1_000_000) {
+            System.out.println("Операция успешна с кредитного счета");
+            balance -= amount;
+            return true;
+        }
+        System.out.println("Операция не успешна с кредитного счета");
+        return false;
     }
 
     @Override

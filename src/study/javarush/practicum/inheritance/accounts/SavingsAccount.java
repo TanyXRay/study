@@ -28,8 +28,10 @@ public class SavingsAccount extends Account {
     public boolean pay(long amount) {
         if (amount < balance && balance > minBalance) {
             balance -= amount;
+            System.out.println("Операция успешна с накопительного счета");
             return true;
         } else {
+            System.out.println("Операция не успешна с накопительного счета");
             return false;
         }
     }

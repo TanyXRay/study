@@ -28,8 +28,10 @@ public class CheckingAccount extends Account {
     public boolean pay(long amount) {
         if (amount <= balance && balance >= minBalance) {
             balance -= amount;
+            System.out.println("Операция успешна с расчетного счета ");
             return true;
         } else {
+            System.out.println("Операция не успешна с расчетного счета ");
             return false;
         }
     }

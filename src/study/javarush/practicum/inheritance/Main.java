@@ -1,7 +1,9 @@
 package study.javarush.practicum.inheritance;
 
-import study.javarush.practicum.inheritance.accounts.*;
-import study.javarush.practicum.inheritance.clients.*;
+import study.javarush.practicum.inheritance.accounts.CheckingAccount;
+import study.javarush.practicum.inheritance.accounts.CreditAccount;
+import study.javarush.practicum.inheritance.accounts.SavingsAccount;
+import study.javarush.practicum.inheritance.clients.Client;
 
 /**
  * Решение задачи №1 по теме: Наследование.Инкапсуляция.Полиморфизм.
@@ -14,7 +16,7 @@ public class Main {
         SavingsAccount savingsAccount = new SavingsAccount("Unknown", 1_000, 500);
         CheckingAccount checkingAccount = new CheckingAccount("Unknown", 1_000, 0);
         CreditAccount creditAccount = new CreditAccount("Unknown", 1_000);
-        Client client = new Client("James", 4);
+        Client client = new Client("James", 5);
 
         savingsAccount.setNameOwner("James");
         savingsAccount.setBalance(20_000);
@@ -34,10 +36,9 @@ public class Main {
         creditAccount.add(17_999);
         creditAccount.add(19_000);
 
-        client.addNewAccount(checkingAccount);
         client.addNewAccount(creditAccount);
+        client.addNewAccount(checkingAccount);
         client.addNewAccount(savingsAccount);
-        client.pay(480000);
-
+        client.pay(4_900_000);
     }
 }
