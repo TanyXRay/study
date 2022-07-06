@@ -1,8 +1,9 @@
 package study.javarush.practicum.inheritance.clients;
 
-import study.javarush.practicum.inheritance.accounts.*;
+import study.javarush.practicum.inheritance.MoneyTarget;
+import study.javarush.practicum.inheritance.accounts.Account;
 
-public class Client {
+public class Client implements MoneyTarget {
     private String name;
     private int maxAccount;
 
@@ -32,6 +33,17 @@ public class Client {
             }
         }
         System.out.println("Ни один счет не может покрыть расходы на покупку!");
+        return false;
+    }
+
+    @Override
+    public boolean accept(int money) {
+        for (Account account : accounts) {
+            if (account != null) {
+                if (account.accept(money))
+                    return true;
+            }
+        }
         return false;
     }
 }

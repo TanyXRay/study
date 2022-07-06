@@ -1,31 +1,30 @@
 package study.javarush.practicum.inheritance.accounts;
 
-public class Account {
+import study.javarush.practicum.inheritance.MoneyTarget;
+
+public abstract class Account implements MoneyTarget {
     protected String nameOwner;
     protected long balance;
+    protected String nameOfAccount;
 
-    public Account(String nameOwner, long balance) {
+    public Account(String nameOwner, long balance, String nameOfAccount) {
         this.nameOwner = nameOwner;
         this.balance = balance;
+        this.nameOfAccount = nameOfAccount;
     }
 
     /**
      * Данный метод осуществляет оплату покупки.
-     *
-     * @param amount
-     * @return
      */
-    public boolean pay(long amount) {
-        return true;
-    }
+    public abstract boolean pay(long amount);
 
     /**
      * Данный метод осуществляет пополнение счета.
-     *
-     * @param amount
-     * @return
      */
-    public boolean add(long amount) {
-        return true;
-    }
+    public abstract boolean add(long amount);
+
+    /**
+     * Данный метод осуществляет перевод с одного счета на другой.
+     */
+    public abstract boolean transfer(Account accountTo, int amount);
 }
