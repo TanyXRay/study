@@ -67,7 +67,7 @@ public class CreditAccount extends Account {
     }
 
     @Override
-    public boolean accept(int money){
+    public boolean accept(int money) {
         if (add(money)) {
             System.out.println("Примечание: приняты деньги в размере " + money + " руб. на " + "\"" + nameOfAccount + "\"");
             return true;

@@ -1,6 +1,6 @@
 package study.javarush.practicum.inheritance.accounts;
 
-import study.javarush.practicum.inheritance.MoneyTarget;
+import study.javarush.practicum.inheritance.accept.MoneyTarget;
 
 public abstract class Account implements MoneyTarget {
     protected String nameOwner;

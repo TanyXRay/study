@@ -23,6 +23,7 @@ public class Main {
         savingsAccount.pay(2_000);
         savingsAccount.transfer(checkingAccount, 9_000);
         savingsAccount.accept(533);
+        savingsAccount.accept(633);
 
         checkingAccount.setNameOwner("James");
         checkingAccount.add(200_000);

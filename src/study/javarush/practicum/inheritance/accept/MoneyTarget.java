@@ -1,4 +1,4 @@
-package study.javarush.practicum.inheritance;
+package study.javarush.practicum.inheritance.accept;
 
 public interface MoneyTarget {
 

@@ -1,7 +1,7 @@
 package study.javarush.practicum.inheritance.clients;
 
-import study.javarush.practicum.inheritance.MoneyTarget;
 import study.javarush.practicum.inheritance.accounts.Account;
+import study.javarush.practicum.inheritance.accept.MoneyTarget;
 
 public class Client implements MoneyTarget {
     private String name;
