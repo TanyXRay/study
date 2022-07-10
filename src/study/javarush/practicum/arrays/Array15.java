@@ -3,6 +3,7 @@ package study.javarush.practicum.arrays;
 import java.util.Scanner;
 
 /**
+ * Работа с массивами.
  * Решение задачи №1 по теме "Одномерные массивы".
  * Решение задачи №1 по теме "Исключения".
  */

@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Вывод среднего значения будем осуществлять после каждого ввода данных.
  */
 
-public class Arrays8 {
+public class Array8 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

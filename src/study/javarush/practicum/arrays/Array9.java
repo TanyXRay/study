@@ -6,7 +6,7 @@ package study.javarush.practicum.arrays;
  * а затем этот же массив выведите на экран тоже в строку, но в обратном порядке (99 97 95 … 5 3 1).
  */
 
-public class Arrays9 {
+public class Array9 {
 
     public static void main(String[] args) {
         int[] numers = new int[100];               // первый вариант

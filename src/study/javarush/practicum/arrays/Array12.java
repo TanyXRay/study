@@ -8,7 +8,7 @@ import java.util.Random;
  * Найти максимальный элемент в массиве из сгенерированных чисел.
  */
 
-public class Arrays12 {
+public class Array12 {
 
     public static void main(String[] args) {
         Random random = new Random();

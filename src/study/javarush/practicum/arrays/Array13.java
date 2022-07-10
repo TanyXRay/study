@@ -7,7 +7,7 @@ import java.util.Random;
  * Поменять местами минимальный и максимальный элементы массива.
  */
 
-public class Arrays13 {
+public class Array13 {
 
     public static void main(String[] args) {
         Random random = new Random();

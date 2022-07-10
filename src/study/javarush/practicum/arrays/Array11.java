@@ -7,7 +7,7 @@ package study.javarush.practicum.arrays;
  * Снова выведете массив на экран на отдельной строке.
  */
 
-public class Arrays11 {
+public class Array11 {
 
     public static void main(String[] args) {
         int[] mas = new int[8];
