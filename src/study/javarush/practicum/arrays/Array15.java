@@ -30,22 +30,29 @@ public class Array15 {
             if (parts.length != 2) {
                 continue;
             }
+            int productNumber;
+            int productCount;
             try {
-                int productNumber = Integer.parseInt(parts[0]) - 1; // выбор продукта
-                if (productNumber >= 3 || productNumber < 0) {
-                    System.out.println("Вы ввели некорректное число продукта. Попробуйте снова!");
-                    continue;
-                }
-                int productCount = Integer.parseInt(parts[1]); //  выбор количества продуктов
-                if (productCount > 100 || productCount <= 0) {
-                    System.out.println("Вы ввели некорректное кол-во продукта. Попробуйте снова!");
-                    continue;
-                }
-                productsCount[productNumber] += productCount;
+                productNumber = Integer.parseInt(parts[0]) - 1;//  выбор номера продукта
             } catch (NumberFormatException e) {
                 System.out.println("Вы ввели текст заместо числа. Попробуйте снова!");
                 continue;
             }
+            if (productNumber >= 3 || productNumber < 0) {
+                System.out.println("Вы ввели некорректное число продукта. Попробуйте снова!");
+                continue;
+            }
+            try {
+                productCount = Integer.parseInt(parts[1]); //  выбор количества ранее выбранного продукта
+            } catch (NumberFormatException e) {
+                System.out.println("Вы ввели текст заместо числа. Попробуйте снова!");
+                continue;
+            }
+            if (productCount > 100 || productCount <= 0) {
+                System.out.println("Вы ввели некорректное кол-во продукта. Попробуйте снова!");
+                continue;
+            }
+            productsCount[productNumber] += productCount;
         }
 
         System.out.println("Ваша корзина:");
