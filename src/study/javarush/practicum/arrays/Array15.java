@@ -38,7 +38,7 @@ public class Array15 {
                 System.out.println("Вы ввели текст заместо числа. Попробуйте снова!");
                 continue;
             }
-            if (productNumber >= 3 || productNumber < 0) {
+            if (productNumber >= productsCount.length || productNumber < 0) {
                 System.out.println("Вы ввели некорректное число продукта. Попробуйте снова!");
                 continue;
             }
