@@ -1,4 +1,4 @@
-package study.javarush.practicum.innerclass;
+package study.javarush.practicum.innerclass.statics;
 
 /**
  * Работа с вложенными классами.
