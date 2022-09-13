@@ -1,11 +1,11 @@
-package study.javarush.practicum.arrays;
+package study.javarush.practicum.arrays.two_dimension_alarrays;
 
 /**
- * Работа с массивами.
+ * Работа с многомерными массивами.
  * Пример работы с рваным массивом.
  */
 
-public class TwoDimensionalArray {
+public class TwoDimensionalArray1 {
 
     public static void main(String[] args) {
         int[][] ints = new int[8][]; // укажем только кол-во строк (8), inits это ссылка, которая указывет на одномерный массив, где 8 ссылок пока никуда не указвают
