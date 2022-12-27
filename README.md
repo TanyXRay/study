@@ -14,6 +14,7 @@
 - else
 > > package link: [formula](https://github.com/TanyXRay/study/tree/main/src/study/homework/formula)
 ****
+
 ## Java Quick Sort method
 ##### Quicksort is one of the fastest sorting algorithms in existence and has algorithmic complexity. In this method, the task is divided into subtasks until there is an elementary unit. The same with the algorithm: the array is divided into several arrays, each of which is sorted separately and then combined into one array.
 *Step-by-step description of how the quick sort algorithm works:*
@@ -26,8 +27,7 @@
 > there are also other options for writing code, where specific values in the array are indicated, and not random numbers, with the use of additional conditions if-else
 > > package link: [quicksort](https://github.com/TanyXRay/study/tree/main/src/study/homework/sort/quicksort)
 ****
-*Thank you for the attention!* 
-*****
+
 ## Inheritance in Java
 ##### Inheritance is a mechanism in programming, including Java, that allows you to describe a new class based on an existing one. The derived class thus gains access to the fields and methods of the parent class.
 ##### for example, I created 3 classes: 
@@ -42,8 +42,7 @@
 ##### Pay attention to the instanceof operator: it is written without a dot, since it is an operator, not a method (“instanceof class object”).
 > > package link: [inheritance](https://github.com/TanyXRay/study/tree/main/src/study/homework/inheritance)
 ****
-*That's all, thanks for your attention!*
-****
+
 ## Writing files
 ##### In Java, the File class represents files and directory paths in an abstract manner. This class is used to create, search, delete files and directories, etc.
 ##### The constructor is passed either a path to a file as a string, or a File object referring to a specific text file. We use StringBuilder to work with strings with less overhead and also use the append parameter to add additional text to the written file.
@@ -51,8 +50,7 @@
 > There is another point, in addition to data validation, custom exceptions are implemented in the code, for example, when creating a file that will match the name of an already created file, an exception inherited from RuntimeException (FileAlreadyCreatedException class) will be thrown, which helps to stop the program execution at the stage creating an existing file.
 > > package link: [filewriter](https://github.com/TanyXRay/study/tree/main/src/study/homework/writing/filewriter)
 ****
-*That's all, thanks for your attention!*
-****
+
 ## Input-Output Java
 ##### I/O is used to access or process input and produce output based on the input. Java uses the concept of streams, which speed up I/O operations.
 ##### There are symbolic abstract classes (working with text data) - these are Writer and Reader; and byte abstract classes (working mainly with audio, video, images) -InputStream and OutputStream.
@@ -61,8 +59,7 @@
 ##### First of all, objects were created for reading a file and writing to another file using FileReader and Writer (do not forget about try-catch blocks, where in the try parameters we will immediately close the streams using try-with-resource ). Using the BufferedReader class, we read text from the character input stream, buffering the characters read. Using the Split method, we split the lines in the file into an array of lines. Next, you need to select a record in our "result _data .txt" file. To do this, we immediately use the Integer.parseInt wrapper class method to validate the age (since strings are accepted for reading, but we need a number), and the equals method is used to select the gender.
 > > package link: [filewriter2](https://github.com/TanyXRay/study/tree/main/src/study/homework/writing/filewriter2)
 ****
-*That's all, thanks for your attention!*
-****
+
 ## Practical examples from Java Rush website
 > short and simple
 ##### Here will be considered various examples on the use of various tools that are used in Java.

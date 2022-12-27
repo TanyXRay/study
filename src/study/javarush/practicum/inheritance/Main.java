@@ -1,5 +1,6 @@
 package study.javarush.practicum.inheritance;
 
+import study.javarush.practicum.inheritance.accounts.Account;
 import study.javarush.practicum.inheritance.accounts.CheckingAccount;
 import study.javarush.practicum.inheritance.accounts.CreditAccount;
 import study.javarush.practicum.inheritance.accounts.SavingsAccount;
@@ -13,9 +14,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        SavingsAccount savingsAccount = new SavingsAccount("Unknown", 1_000_000, "накопительный счет", 500);
-        CheckingAccount checkingAccount = new CheckingAccount("Unknown", 15_000, "расчетный счет", 0);
-        CreditAccount creditAccount = new CreditAccount("Unknown", -100, "кредитный счет");
+        Account savingsAccount = new SavingsAccount("Unknown", 1_000_000, "накопительный счет", 500);
+        Account checkingAccount = new CheckingAccount("Unknown", 15_000, "расчетный счет", 0);
+        Account creditAccount = new CreditAccount("Unknown", -100, "кредитный счет");
         Client client = new Client("James", 5);
 
         savingsAccount.setNameOwner("James");

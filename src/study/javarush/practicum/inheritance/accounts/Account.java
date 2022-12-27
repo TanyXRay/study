@@ -27,4 +27,6 @@ public abstract class Account implements MoneyTarget {
      * Данный метод осуществляет перевод с одного счета на другой.
      */
     public abstract boolean transfer(Account accountTo, int amount);
+
+    public abstract void setNameOwner(String name);
 }
